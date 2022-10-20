@@ -1,0 +1,41 @@
+{
+  "name": "mjwigcommerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@paypal/paypal-js": "^5.1.1",
+    "@paypal/react-paypal-js": "4.1.0",
+    "@sanity/client": "^3.2.0",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.25.0",
+    "@types/paypal__checkout-server-sdk": "^1.0.4",
+    "axios": "^1.1.3",
+    "canvas-confetti": "^1.5.1",
+    "next": "12.1.0",
+    "next-sanity-image": "^3.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "react-paypal-button-v2": "^2.6.3",
+    "react-query": "^3.39.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
